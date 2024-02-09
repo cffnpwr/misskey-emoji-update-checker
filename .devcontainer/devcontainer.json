@@ -1,0 +1,17 @@
+{
+	"name": "MisskeyEmojiUpdateChecker",
+	"dockerFile": "./Dockerfile",
+	"workspaceFolder": "/workspace",
+	"workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-azuretools.vscode-docker",
+				"yzhang.markdown-all-in-one",
+				"EditorConfig.EditorConfig",
+				"biomejs.biome",
+				"tamasfe.even-better-toml"
+			]
+		}
+	}
+}

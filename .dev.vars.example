@@ -1,0 +1,4 @@
+MK_URL="https://inastance.tld/"
+MK_TOKEN="XXXXXXXXXXXXXXXXXXXXXXXXXXX"
+IMAGE_BACKUP_BASE_URL="http://localhost:8787"
+IMAGE_BACKUP_PATH="/mi-emoji-update-checker/instance-name/files/"

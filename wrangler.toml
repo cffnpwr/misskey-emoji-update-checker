@@ -1,0 +1,19 @@
+name = "misskey-emoji-update-checker"
+main = "src/index.ts"
+compatibility_date = "2023-12-18"
+
+[triggers]
+crons = ["* * * * *"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "mi-kitazawa-emojis"
+database_id = "61121d09-9b34-4bb2-8729-156c7ec3fc2a"
+
+[[kv_namespaces]]
+binding = "KV"
+id = "775f0d8a6d3c4065bb2ac545d3697d22"
+
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "mi-kitazawa-emojis"

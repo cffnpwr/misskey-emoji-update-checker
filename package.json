@@ -1,0 +1,21 @@
+{
+  "name": "polished-cloud-b8db",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20231218.0",
+    "misskey-js": "^0.0.16",
+    "typescript": "^5.0.4",
+    "wrangler": "^3.0.0"
+  },
+  "dependencies": {
+    "@biomejs/biome": "^1.4.1",
+    "@js-temporal/polyfill": "^0.4.4",
+    "hono": "^3.12.0"
+  }
+}
