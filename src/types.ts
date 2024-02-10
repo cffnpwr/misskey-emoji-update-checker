@@ -21,7 +21,7 @@ export type DBEmoji = {
 }
 
 export type Env = {
-  ENV: "production" | "development";
+  ENV?: "dev";
 	MK_URL: string;
 	MK_TOKEN: string;
 	MK_HOOK_SECRET: string;

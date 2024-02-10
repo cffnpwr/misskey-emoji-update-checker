@@ -10,7 +10,8 @@
 				"yzhang.markdown-all-in-one",
 				"EditorConfig.EditorConfig",
 				"biomejs.biome",
-				"tamasfe.even-better-toml"
+				"tamasfe.even-better-toml",
+				"ZixuanChen.vitest-explorer"
 			]
 		}
 	}

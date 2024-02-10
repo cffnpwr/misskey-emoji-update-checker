@@ -5,17 +5,23 @@
   "scripts": {
     "deploy": "wrangler deploy",
     "dev": "wrangler dev",
-    "start": "wrangler dev"
+    "start": "wrangler dev",
+    "init": "wrangler d1 migrations "
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20231218.0",
-    "misskey-js": "^0.0.16",
+    "@types/bun": "^1.0.5",
+    "drizzle-kit": "^0.20.14",
+    "misskey-js": "^2024.2.0-beta.8",
+    "toml": "^3.0.0",
     "typescript": "^5.0.4",
+    "vitest": "^1.2.2",
     "wrangler": "^3.0.0"
   },
   "dependencies": {
     "@biomejs/biome": "^1.4.1",
     "@js-temporal/polyfill": "^0.4.4",
-    "hono": "^3.12.0"
+    "drizzle-orm": "^0.29.3",
+    "hono": "^4.0.0"
   }
 }
