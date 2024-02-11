@@ -1,7 +1,7 @@
 import { Hono } from "hono";
 import { Env } from "../types";
 
-const app = new Hono<{Bindings: Env}>();
+const app = new Hono<{ Bindings: Env }>();
 
 app.get("/:file", async (c) => {
   console.log(c.req.url);
